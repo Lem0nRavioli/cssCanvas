@@ -1,38 +1,60 @@
 .App {
+  display: flex;
+  flex-flow: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  /* align-items: stretch; */
+  /* justify-items: stretch; */
+}
+
+.navbar {
+  /* flex-grow: 1; */
+  position: fixed;
+  width: 15%;
+  min-height: 100%;
+  background-color: green;
+  
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.content {
+  /* flex-grow: 9; */
+  width: 85%;
+  margin-left: 15%;
+  background-color: hotpink;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: column;
+  align-items: flex-end;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.tableau {
+  width: 100%;
+  background-color: burlywood;
+
+  display: flex;
+  flex-flow: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coll {
+  width: 50%;
+  background-color: rgb(113, 129, 129);
+}
+
+.colr {
+  width: 50%;
+  background-color: blueviolet;
+}
+
+.bottom {
+  background-color: chocolate;
+}
+
+.top {
+  background-color: cornflowerblue;
 }

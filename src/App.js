@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="navbar">
+        <p className="test">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, molestias.</p>
+        <p className="test">aaaaaaaaaaaaaaa</p>
+        <p className="test">aaaaa</p>
+      </div>
+      <div className="content">
+        <p className="top">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptas tempora rerum sunt harum soluta quas. Eos officia vero modi quia eligendi dignissimos, maxime eius placeat corporis! Optio vel provident corrupti dolor ut esse harum, ipsum libero porro ex accusantium odit. Libero placeat in asperiores aperiam praesentium assumenda, minima corrupti voluptates tenetur! Laudantium voluptatum cupiditate consectetur error laborum ex sed reiciendis, voluptates repudiandae libero, voluptas adipisci impedit quibusdam! Repellendus cum quasi optio atque deserunt! Illo magnam alias repellendus repudiandae, laborum ea, dolores minus aperiam reprehenderit impedit adipisci suscipit consequatur quidem veritatis praesentium tempore voluptate, incidunt quaerat maiores dolore consequuntur. Saepe alias unde explicabo veniam, sequi asperiores iure suscipit molestias. Voluptatum perferendis id nobis quod! Corrupti rem soluta exercitationem voluptate porro voluptatem iure, ut consectetur perspiciatis cumque reprehenderit esse omnis sapiente illum maiores sunt unde in impedit veniam! Rem eaque at debitis facere nemo reiciendis sit repellat accusantium, nostrum ullam veniam laborum qui atque, architecto eos aperiam, aliquid dolorem iure. Nam, quae pariatur fugit saepe cumque eos fugiat ipsum atque id voluptatum quod deleniti provident velit. Earum, modi tempora neque deserunt ipsam expedita nulla quisquam dolor adipisci maiores labore odit totam ut consectetur, minima quod asperiores sequi assumenda! Veniam, voluptas doloremque!</p>
+        <div className="tableau">
+          <p className="coll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet voluptatibus dicta accusantium omnis sunt dolorem blanditiis. Sint quo quod velit. Totam amet itaque, numquam repellat consectetur quaerat exercitationem quae ipsum quos laboriosam rerum commodi qui? Facilis quam in necessitatibus voluptate corrupti quaerat corporis explicabo molestiae soluta incidunt consequuntur reiciendis praesentium repellat rem culpa maxime repudiandae quasi vero ex aperiam eligendi, a porro. Molestiae dolor qui laboriosam voluptas pariatur animi a ad dignissimos blanditiis dolores, omnis doloribus consequatur vero, nesciunt expedita illum harum accusamus placeat quod. Ipsa tenetur quasi maiores in! Incidunt repellendus praesentium fuga illo consequuntur qui similique numquam? Doloribus deleniti repellat, dolorem vitae eaque ut perferendis reprehenderit, voluptate aperiam quidem, a repudiandae exercitationem commodi rem ipsam accusamus velit dolores. Perferendis earum facilis in quis id. Error enim quia cum in neque exercitationem obcaecati, ab provident, animi beatae itaque dolor odit ipsam molestiae nemo quod, illum veritatis tempora? Voluptate dicta debitis voluptatibus, nulla provident eos tenetur facere reiciendis labore voluptas voluptatem consectetur ex maiores consequuntur unde doloremque quo voluptates harum ipsa repudiandae omnis eaque id velit consequatur. Ratione aperiam unde quod. Repellat culpa aperiam, non omnis consequatur fugiat perferendis ab atque consectetur, pariatur, sed reiciendis et ipsa voluptates! Explicabo et ea aut, doloremque eaque similique. Dolore, est. Ipsum natus commodi numquam nihil! Perferendis nobis, harum doloribus praesentium dolorum nemo porro hic accusantium aspernatur ratione tenetur alias error vitae, ex cumque enim culpa! Error quas accusantium aspernatur quisquam tempore suscipit nostrum, ducimus officiis quod vitae incidunt. Repudiandae modi itaque deleniti tempore consequatur ab voluptates aut saepe quas quod laborum, in excepturi ex magni esse eveniet a quos autem cum, sit vel, nemo necessitatibus iusto? Officia sint quae facilis expedita perspiciatis modi culpa facere quod iste? Officiis sint accusantium dolor sequi temporibus amet tempora ratione. Adipisci similique ut voluptas enim tempora.</p>
+          <p className="colr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam architecto odit?</p>
+        </div>
+        <p className="bottom">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo voluptas tempora rerum sunt harum soluta quas. Eos officia vero modi quia eligendi dignissimos, maxime eius placeat corporis! Optio vel provident corrupti dolor ut esse harum, ipsum libero porro ex accusantium odit. Libero placeat in asperiores aperiam praesentium assumenda, minima corrupti voluptates tenetur! Laudantium voluptatum cupiditate consectetur error laborum ex sed reiciendis, voluptates repudiandae libero, voluptas adipisci impedit quibusdam! Repellendus cum quasi optio atque deserunt! Illo magnam alias repellendus repudiandae, laborum ea, dolores minus aperiam reprehenderit impedit adipisci suscipit consequatur quidem veritatis praesentium tempore voluptate, incidunt quaerat maiores dolore consequuntur. Saepe alias unde explicabo veniam, sequi asperiores iure suscipit molestias. Voluptatum perferendis id nobis quod! Corrupti rem soluta exercitationem voluptate porro voluptatem iure, ut consectetur perspiciatis cumque reprehenderit esse omnis sapiente illum maiores sunt unde in impedit veniam! Rem eaque at debitis facere nemo reiciendis sit repellat accusantium, nostrum ullam veniam laborum qui atque, architecto eos aperiam, aliquid dolorem iure. Nam, quae pariatur fugit saepe cumque eos fugiat ipsum atque id voluptatum quod deleniti provident velit. Earum, modi tempora neque deserunt ipsam expedita nulla quisquam dolor adipisci maiores labore odit totam ut consectetur, minima quod asperiores sequi assumenda! Veniam, voluptas doloremque!</p>
+
+
+        
+      </div>
     </div>
   );
 }
